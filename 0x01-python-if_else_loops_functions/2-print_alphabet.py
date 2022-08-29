@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    print("{0:c}".format(i),end = "")
+    print("{:c}".format(i),end = "")
 
 # print("{}".format(chr(i)),end = "")
 # print("{0:c}".format(i),end = "")
