@@ -8,9 +8,15 @@ def add_tuple(tuple_a=(), tuple_b=()):
     if a > 1 and b > 1:
         mylist.append(tuple_a[0] + tuple_b[0])
         mylist.append(tuple_a[1] + tuple_b[1])
+    elif a == 1 and b == 1:
+        mylist.append(tuple_a[0] + tuple_b[0])
+        mylist.append(0 + 0)
     elif a == 1:
         mylist.append(tuple_a[0] + tuple_b[0])
         mylist.append(0 + tuple_b[1])
+    elif a == 0 and b == 0:
+        mylist.append(0 + 0)
+        mylist.append(0 + 0)
     elif not tuple_a:
         mylist.append(0 + tuple_b[0])
         mylist.append(0 + tuple_b[1])
