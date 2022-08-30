@@ -7,7 +7,7 @@ def print_matrix_integer(matrix=[[]]):
         clen = len(matrix[i])
         for j in range(clen):
             if j < clen - 1:
-                print("{}".format(matrix[i][j]), end=" ")
+                print("{:d}".format(matrix[i][j]), end=" ")
             else:
-                print("{}".format(matrix[i][j]), end="")
+                print("{:d}".format(matrix[i][j]), end="")
         print()
