@@ -31,4 +31,3 @@ if num_args == 4:
 else:
     print("Usage: ./100-my_calculator.py <a> <operator> <b>")
     sys.exit(1)
-
